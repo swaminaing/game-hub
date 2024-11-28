@@ -30,7 +30,7 @@ function App() {
       }}
       templateColumns={{
         base: "1fr",
-        lg: "200px 1fr",
+        lg: "250px 1fr",
       }}
     >
       <GridItem area={"nav"}>
@@ -44,7 +44,7 @@ function App() {
           ></GenreList>
         </GridItem>
       </Show>
-      <GridItem area={"main"}>
+      <GridItem area={"main"} paddingX='10px'>
         <GameHeading gameQuery={gameQuery} />
         <Flex marginBottom={5}>
           <Box marginRight={5}>
